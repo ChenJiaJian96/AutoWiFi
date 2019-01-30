@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * WiFi 工具类
- *
+ * <p>
  * Created by jiajianchen
  * on 2019/1/18
  */
@@ -26,7 +26,6 @@ public class WifiAdmin {
     private List<WifiConfiguration> mWifiConfiguration;
 //    // 定义一个WifiLock
 //    WifiManager.WifiLock mWifiLock;
-
 
     // 构造器
     public WifiAdmin(Context context) {

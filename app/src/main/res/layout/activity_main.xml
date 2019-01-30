@@ -10,6 +10,7 @@
         android:id="@+id/main_bg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/common_bg"
         />
 
     <com.facebook.drawee.view.SimpleDraweeView
@@ -71,7 +72,7 @@
         android:layout_toEndOf="@+id/pw_text"/>
 
     <CheckBox
-        android:id="@+id/cb_remember"
+        android:id="@+id/remember_cb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/connect_icon"
